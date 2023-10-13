@@ -99,7 +99,9 @@ body{
   position: absolute;
   top: 2rem;
 }
-
+#logo2hide{
+  display: none;
+}
 /**********Banner**********/
 #banner{
   color: white;
@@ -208,10 +210,13 @@ body{
 }
 @media (max-width:550px) {
   html{
-    font-size: 72%;
+    font-size: 80%;
   }
   .row-PosterLarge{
     width: 90%;
-    max-height: 140px;
+    max-height: 180px;
+  }
+  #hide{
+    display: none;
   }
 }
