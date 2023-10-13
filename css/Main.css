@@ -47,7 +47,7 @@ body{
 }
 .header-left a{
   margin-left: 1rem;
-  color: rgb(240, 240, 240);
+  color: rgb(209, 209, 209);
   filter: drop-shadow(1px 1px 1px var(--shadow-filter));
 }
 .header-color{
@@ -175,7 +175,6 @@ body{
   z-index: 4;
 }
 .row {
-  margin-left: 1.3rem;
   color: white;
 }
 .row-posters::-webkit-scrollbar{
