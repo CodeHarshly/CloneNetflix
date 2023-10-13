@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/Main.css">
+    <link rel="stylesheet" href ="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <title>Home</title>
+</head>
+<body>
+
+    <!--------------header---------------->
+    <header class="header">
+        <div class="header-left">
+            <a href="index.html">
+                <img src="images/netflix.png" alt="logo">
+            </a>
+            <a href="#home" class="active">Home</a>
+            <a href="#Shows" >TV shows</a>
+            <a href="#Movies" >Movies</a>
+            <a href="#Popular">New & Popular</a>
+            <a href="#Mylist" >My List</a>
+            <a href="#browsebylanguage">Browse by Languages</a>
+        </div>
+        <div class="header-right">
+            <span><i class="fa-solid fa-magnifying-glass"></i></span>
+            <span><a href="#Children" >Children</a></span>
+            <span><i class="fa-regular fa-bell"></i><small class="notify-counter">5</small></span>
+            
+            <span><img class="avatar" src="images/avatar.png" alt=""></span>
+            <span class="arrow"><i class="fa-solid fa-caret-down"></i></span>
+        </div>
+    </header>
+    
+    <!----------------banner-------------->
+    <div id="banner">
+        <div id="banner-content">
+            <h1 id="banner-title"></h1>
+            <div id="banner-buttons">
+                <button class="btn1" id="banner-button"><i class="fa-solid fa-play"></i>Play</button>
+                <button class="btn2" id="banner-button"><i class="fa-solid fa-circle-info"></i>More Info</button>
+            </div>
+            <p id="banner-description"></p>
+        </div>
+        <div id="banner-fadebuttom"></div>
+    </div>
+
+    <!------------Row content------------->
+    <div id="headrow">
+        <div class="row">
+            <h2 class="row-title"></h2>
+            <div class="row-posters"></div>
+        </div>
+    </div>
+    <script>
+        window.addEventListener("scroll", function(){
+
+            var head = document.querySelector(".header");
+            head.classList.toggle("active", window.scrollY > 600);
+        });
+    </script>
+    <!--------------script---------------->
+    <script src="script/Main.js"></script>
+
+</body>
+</html>
