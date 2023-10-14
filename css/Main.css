@@ -224,6 +224,10 @@ body{
   }
   #logo2hide{
     display: block;
-    width: 4rem;
+  }
+  .header-left img{ 
+    margin-right: 1.4rem; 
+    width: 2rem; 
+    filter: drop-shadow(1px 1px 1px var(--shadow-filter)); 
   }
 }
