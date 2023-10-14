@@ -224,5 +224,6 @@ body{
   }
   #logo2hide{
     display: block;
+    width: 4rem;
   }
 }
