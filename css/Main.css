@@ -219,4 +219,10 @@ body{
   #hide{
     display: none;
   }
+  #logo1hide{
+    display: none;
+  }
+  #logo2hide{
+    display: block;
+  }
 }
