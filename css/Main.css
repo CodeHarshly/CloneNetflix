@@ -225,6 +225,9 @@ body{
   #logo2hide{
     display: block;
     margin-right: 1.4rem; 
-    width: 5rem;
+    width: 2.4rem;
+  }
+  .header-left a{ 
+      margin-left: 2.5rem;
   }
 }
